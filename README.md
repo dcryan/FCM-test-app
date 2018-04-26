@@ -32,12 +32,14 @@ to get some information when creating the app in the firebase console.
 Under Settings/General click Add App. Select iOS and refer to iTunesConnect and certs, identifiers,
 and provisioning profiles for all the info.
 
-Name             Found In
-iOS bundle ID    App IDs
-App nickname     N/A
+```
+Name             Found In
+iOS bundle ID    App IDs
+App nickname     N/A
 App Store ID     iTunesConnect App info
-
-Register App.
+```
+  
+Register App.  
 
 Download the GoogleService-Info.plist file and save it in the root of your Ionic app directory.
 Finish the wizard and ignore the Firebase SDK and initialization code.
